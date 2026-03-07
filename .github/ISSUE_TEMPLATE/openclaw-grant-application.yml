@@ -92,6 +92,15 @@ body:
       required: true
 
   - type: input
+    id: email
+    attributes:
+      label: 联系邮箱
+      description: 用于后续沟通与通知
+      placeholder: you@example.com
+    validations:
+      required: true
+
+  - type: input
     id: payout_address
     attributes:
       label: 收款地址
