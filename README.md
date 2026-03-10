@@ -1,49 +1,54 @@
-# GCC OpenClaw Grants
+# GCC AI Agent Hackathon Submissions
 
-`gcc-openclaw-grants` 是 GCC（Global Chinese Community of Universal Digital Commons）用于收集与评议 OpenClaw 赛道资助申请的公开仓库。
+`gcc-openclaw-grants` 用于收集 GCC AI Agent Hackathon 的项目提交（通过 GitHub Issue）。
 
-## 适用赛道
+## 背景
 
-- OpenClaw Track（2026 Cohort 3）
-- 申请时间：`3月1日 - 4月12日`
-- 资助形式：`Mac mini 若干台`（具体规则以 GCC 后续公告为准）
+GCC（Global Chinese Community of Universal Digital Commons）是首个华语公共物品捐赠基金，过去两年资助了 `45+` 个项目，累计捐赠超过 `$1.15M`。
 
-## 我们重点关注
+在长期运营中，治理参与、资金分配、项目追踪、日常协作都存在大量重复且高摩擦的流程。我们希望通过 AI Agent，把这些真实问题转化为可落地的开源工具。
 
-- Agent 隐私与安全基础设施  
-  例如：技能审计、最小权限、沙箱隔离、本地数据边界、供应链安全
-- 服务于加密公共物品的应用层 Agent  
-  例如：Grant 尽调与管理、影响力追踪、社区治理与透明度工具
-- 其他能让“对公众有价值但市场不会优先买单”的工作更高效、可持续的 OpenClaw 项目
+## 四条赛道
 
-## 如何申请
+- 治理（Governance）
+  - 帮助社区成员快速理解提案背景、历史争议与潜在影响，降低治理参与门槛。
+- 分配（Allocation）
+  - 自动化里程碑验证、链上触发、状态通知，减少人工确认延迟与不确定性。
+- 影响力评估（Impact Evaluation）
+  - 持续追踪 GCC Portfolio 项目进展，支持实时可查而非季度人工整理。
+- 工作流优化（Workflow Optimization）
+  - 将会议纪要、信息同步、任务分配等高频重复工作交给 Agent。
 
-1. 在本仓库点击 `New issue`，选择 `OpenClaw Grant Application` 模板并提交。
-2. 同步填写 GCC 的 Tally 短表单（联系方式与收款地址）。
-3. 在 Issue 下参与社区讨论与补充材料。
+## 奖金设置
 
-## 评审维度
+总奖池 `$5,000`，四赛道平均分配，每赛道两个奖项：
 
-- 公共性与问题价值（是否开放、可复用，是否解决真实公共问题）
-- 赛道前瞻性（方向与时代相关性、路线清晰度）
-- 华语社区贡献（降低门槛、扩大影响力）
-- 执行力（里程碑可达性、历史交付可靠性）
-- 可持续性（资助结束后的维护路径）
+| 赛道 | 一等奖 | 二等奖 | 小计 |
+| --- | --- | --- | --- |
+| 治理 | $800 | $450 | $1,250 |
+| 分配 | $800 | $450 | $1,250 |
+| 影响力评估 | $800 | $450 | $1,250 |
+| 工作流优化 | $800 | $450 | $1,250 |
+| 合计 |  |  | $5,000 |
 
-## 时间线（OpenClaw Track）
+四个赛道独立评审，获奖通过链上方式发放，过程公开透明。
 
-| 阶段 | 时间 | 内容 |
-| --- | --- | --- |
-| 提交申请 | 3月1日 - 4月12日 | 在本仓库提 Issue 并进行社区评议 |
-| 后续流程 | 待定 | 评审方式与时间将在截止后公布 |
+## 提交方式
 
-## 说明
+1. 点击 `New issue`。
+2. 选择 `GCC AI Agent Hackathon Submission` 模板。
+3. 按模板完整填写项目信息并提交。
+4. 在 Issue 下参与公开讨论并补充材料。
 
-- 本仓库聚焦 OpenClaw 赛道申请。  
-- 隐私与数字自主权主赛道请使用 GCC 官方申请入口。  
+## 评审重点
 
-## GCC
+- 是否解决 GCC/DAO 场景中的真实问题
+- 是否具备明确可执行的 Agent 技术路径
+- 是否具有公共性、开源复用价值与可持续性
+- 是否有机会在 GCC 或 Portfolio 项目中真实落地
 
-- X: [@GCCofCommons](https://x.com/GCCofCommons)
+## 联系方式
+
 - 官网: [gccofficial.org](https://www.gccofficial.org)
-
+- X: [@GCCofCommons](https://x.com/GCCofCommons)
+- 邮箱: [admin@gccofficial.org](mailto:admin@gccofficial.org)

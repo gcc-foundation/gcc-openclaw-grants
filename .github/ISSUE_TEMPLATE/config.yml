@@ -2,8 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: GCC 官网
     url: https://www.gccofficial.org
-    about: 查看 GCC 最新申请与公告信息
+    about: 查看 GCC AI Agent Hackathon 与最新公告
   - name: GCC X (Twitter)
     url: https://x.com/GCCofCommons
-    about: 获取赛道动态与更新
-
+    about: 获取动态与更新

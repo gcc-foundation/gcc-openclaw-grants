@@ -1,27 +1,28 @@
-name: OpenClaw Grant Application
-description: Apply for GCC OpenClaw Track funding/support
-title: "[Application] <project name>"
+name: GCC AI Agent Hackathon Submission
+description: Submit your project for GCC AI Agent Hackathon review
+title: "[Hackathon Submission] <project name>"
 labels:
-  - application
+  - hackathon-submission
 body:
   - type: input
     id: project_name
     attributes:
       label: 项目名称
       description: 项目对外使用的正式名称
-      placeholder: My OpenClaw Project
+      placeholder: My AI Agent Project
     validations:
       required: true
 
   - type: dropdown
-    id: direction
+    id: track
     attributes:
-      label: 申请方向
-      description: 请选择最接近的方向
+      label: 参赛赛道
+      description: 请选择最匹配的一条赛道
       options:
-        - Agent 隐私与安全基础设施
-        - 服务于加密公共物品的应用层 Agent
-        - 其他（仍需符合公共物品导向）
+        - 治理（Governance）
+        - 分配（Allocation）
+        - 影响力评估（Impact Evaluation）
+        - 工作流优化（Workflow Optimization）
     validations:
       required: true
 
@@ -29,28 +30,28 @@ body:
     id: summary
     attributes:
       label: 项目简介（TL;DR）
-      description: 用 3-5 句话介绍你在做什么、为什么重要
+      description: 用 3-5 句话说明你在做什么、为谁解决问题、为什么重要
       placeholder: |
         我们正在构建...
-        目标用户是...
+        服务对象是...
         预期影响是...
     validations:
       required: true
 
   - type: textarea
-    id: problem
+    id: problem_statement
     attributes:
-      label: 要解决的问题
-      description: 请说明当前痛点和现有方案不足
+      label: 要解决的真实问题
+      description: 请说明当前痛点、现有方案不足，以及它在 GCC/DAO 场景中的具体体现
       placeholder: 当前问题是...
     validations:
       required: true
 
   - type: textarea
-    id: solution
+    id: solution_design
     attributes:
-      label: 方案与技术路径
-      description: 包含 OpenClaw 相关设计、系统架构或关键实现
+      label: 方案与技术实现
+      description: 请描述 Agent 设计、关键工作流、工具集成和核心实现路径
       placeholder: 我们的方案是...
     validations:
       required: true
@@ -114,7 +115,7 @@ body:
     attributes:
       label: 提交确认
       options:
-        - label: 我确认本申请信息真实有效，并愿意在 Issue 中进行公开讨论
+        - label: 我确认本提交信息真实有效，并愿意在 Issue 中进行公开讨论
           required: true
-        - label: 我理解评审结果与资助形式将由 GCC 综合评估后决定
+        - label: 我理解四赛道独立评审，获奖结果与奖金发放以官方公告为准
           required: true
