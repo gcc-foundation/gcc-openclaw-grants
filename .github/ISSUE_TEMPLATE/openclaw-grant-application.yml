@@ -89,8 +89,6 @@ body:
       label: 风险与依赖
       description: 列出你已识别的主要风险，以及应对策略
       placeholder: 主要风险包括...
-    validations:
-      required: true
 
   - type: input
     id: email
