@@ -18,6 +18,8 @@ GCC（Global Chinese Community of Universal Digital Commons）是首个华语公
   - 持续追踪 GCC Portfolio 项目进展，支持实时可查而非季度人工整理。
 - 工作流优化（Workflow Optimization）
   - 将会议纪要、信息同步、任务分配等高频重复工作交给 Agent。
+- 安全（Security）
+    - 识别 Agent 权限边界、检测异常行为、防范提示注入与权限滥用，让 Agent 真正可信。
 
 ## 奖金设置
 
