@@ -54,3 +54,11 @@ GCC（Global Chinese Community of Universal Digital Commons）是首个华语公
 - 官网: [gccofficial.org](https://www.gccofficial.org)
 - X: [@GCCofCommons](https://x.com/GCCofCommons)
 - 邮箱: [admin@gccofficial.org](mailto:admin@gccofficial.org)
+
+## 💰 Bounty Contribution
+
+- **Task:** [Hackathon Submission] MolGen — AI-Powered Lead Discovery Platform
+- **Reward:** $500000
+- **Source:** GitHub-Paid
+- **Date:** 2026-04-27
+
